@@ -351,7 +351,7 @@ a {
 
 @media (max-width:400px) {
     .fixed {
-        padding-top: 253px;
+        padding-top: 138px;
     }
     .start {
         flex-direction: column;
