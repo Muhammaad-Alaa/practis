@@ -63,6 +63,29 @@ a {
     text-align: center;
 }
 
+@keyframes jamp {
+    20% {
+        top: -100px;
+        left: -50px;
+    }
+    40% {
+        top: -100px;
+        left: 600px;
+    }
+    60% {
+        top: 100px;
+        left: 600px;
+    }
+    80% {
+        top: 100px;
+        left: -50px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
 @keyframes color1 {
     20% {
         background-color: rgb(46 5 80 / 97%);
@@ -273,7 +296,7 @@ a {
     background-color: rgb(46 5 80 / 97%);
     border-radius: 20px;
     animation-name: color1;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
 }
 
@@ -293,6 +316,11 @@ a {
     text-align: center;
     color: #fff;
     width: 55%;
+    animation-name: jamp;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    position: relative;
 }
 
 .start .disc-titel {
